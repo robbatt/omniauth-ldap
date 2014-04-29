@@ -15,6 +15,7 @@ module OmniAuth
         'nickname' => ['uid', 'userid', 'sAMAccountName'],
         'title' => 'title',
         'location' => {"%0, %1, %2, %3 %4" => [['address', 'postalAddress', 'homePostalAddress', 'street', 'streetAddress'], ['l'], ['st'],['co'],['postOfficeBox']]},
+        'dn' => 'dn',
         'uid' => 'dn',
         'url' => ['wwwhomepage'],
         'image' => 'jpegPhoto',
